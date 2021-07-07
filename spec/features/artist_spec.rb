@@ -46,3 +46,7 @@ describe 'artist form' do
     expect(page).to have_content("My edit")
   end
 end
+
+
+# rails g migration CreateArtists name:string  bio:text --no-test-framework 
+# rails g resource Artist name:string  bio:text --no-test-framework 
