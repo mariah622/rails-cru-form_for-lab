@@ -77,3 +77,5 @@ describe 'song index' do
 
   
 end
+
+# rails g resource Song name:string  artist_id:integer genre_id:integer --no-test-framework 

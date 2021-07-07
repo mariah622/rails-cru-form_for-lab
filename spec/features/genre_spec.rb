@@ -39,3 +39,6 @@ describe 'genre form' do
     expect(page).to have_content("My edit")
   end
 end
+
+# rails g migration CreateGenres name:string --no-test-framework 
+# rails g resource Genre name:string --no-test-framework 
